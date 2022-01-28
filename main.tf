@@ -22,7 +22,7 @@ provider "google" {
 
   project = "premium-highway-319908"
   region  = "asia-south1"
-  zone    = "asia-south1-a"
+  zone    = "asia-south1-c"
 }
 
 resource "google_compute_network" "vpc_network" {
